@@ -4,7 +4,19 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      transitionProperty: {
+        'height': 'height',
+      },
+      height: {
+        '400px': '200px',
+      }
+    },
+  },
+  variants: {
+    extend: {
+      height: ['hover'],
+    },
   },
   plugins: [],
 }
