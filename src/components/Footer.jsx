@@ -39,7 +39,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div>
-                    <a href='/'><img src={logo} alt='logo' /></a>
+                    <a href='/'><img src={logo} alt='logo' className='w-48 h-10' /></a>
                     <p className="mb-4">The trade war currently ensuing between the US and several nations around the globe, most fiercely with.</p>
                     <div className="flex space-x-4">
                         <a href="https://facebook.com" className="text-white hover:text-orange-500"><FaFacebook /></a>

@@ -136,9 +136,7 @@ const Home = () => {
             </div>
 
             <section className="text-center py-6 px-4 md:px-6 lg:px-8 xl:px-10 2xl:px-12">
-                <p className="text-orange-500 text-lg">Our Team Members</p>
-                <h1 className="text-4xl font-bold mb-2">Meet Our Team</h1>
-
+                <h1 className="text-4xl font-bold mb-2">Our Entrusted Distributor</h1>
                 <div className="flex justify-center mt-8">
                     <div className="relative bg-white rounded-lg shadow-lg mx-4 w-full sm:w-[350px] h-[350px] group overflow-hidden">
                         <img className="w-full h-full object-cover" src={corporate} alt="Mancherwan Kolin" />
@@ -153,6 +151,9 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
+                    <p className='text-left w-[400px] h-[350px]'>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
                 </div>
             </section>
         </div>

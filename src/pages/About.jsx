@@ -56,8 +56,7 @@ const About = () => {
             </div>
 
             <section className="text-center py-6 px-4 md:px-6 lg:px-8 xl:px-10 2xl:px-12">
-                <p className="text-orange-500 text-lg">Our Team Members</p>
-                <h1 className="text-4xl font-bold mb-2">Meet Our Team</h1>
+                <h1 className="text-4xl font-bold mb-2">Our Entrusted Distributor</h1>
 
                 <div className="flex justify-center mt-8">
                     <div className="relative bg-white rounded-lg shadow-lg mx-4 w-full sm:w-[350px] h-[350px] group overflow-hidden">

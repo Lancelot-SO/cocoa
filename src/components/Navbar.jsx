@@ -13,19 +13,19 @@ const Navbar = () => {
             <nav className="w-full flex flex-col bg-[#1b4137]">
                 <div className="hidden md:flex items-center justify-between p-2 border-b border-slate-100 md:px-8 lg:px-16 xl:px-32 2xl:px-64 h-16">
                     <div className='flex gap-4 items-center justify-center'>
-                        <span className="hidden sm:flex items-center">Phone: +99 (0) 101 0000 888</span>
-                        <span className="ml-4 hidden sm:flex">Email: info@company.com</span>
+                        <span className="hidden sm:flex items-center text-white">Phone: +99 (0) 101 0000 888</span>
+                        <span className="ml-4 hidden sm:flex text-white">Email: info@company.com</span>
                     </div>
                     <div className='hidden md:flex gap-4'>
-                        <Link to="https://www.facebook.com" className='hover:text-orange-500' target="_blank" rel='noopener noreferrer'><FaFacebook /></Link>
-                        <Link to="https://www.Instagram.com" className='hover:text-orange-500' target="_blank" rel='noopener noreferrer'><FaInstagram /></Link>
-                        <Link to="https://www.Twitter.com" className='hover:text-orange-500' target="_blank" rel='noopener noreferrer'><FaTwitter /></Link>
-                        <Link to="https://www.LinkedIn.com" className='hover:text-orange-500' target="_blank" rel='noopener noreferrer'><FaLinkedinIn /></Link>
+                        <Link to="https://www.facebook.com" className='hover:text-orange-500 text-white' target="_blank" rel='noopener noreferrer'><FaFacebook /></Link>
+                        <Link to="https://www.Instagram.com" className='hover:text-orange-500 text-white' target="_blank" rel='noopener noreferrer'><FaInstagram /></Link>
+                        <Link to="https://www.Twitter.com" className='hover:text-orange-500 text-white' target="_blank" rel='noopener noreferrer'><FaTwitter /></Link>
+                        <Link to="https://www.LinkedIn.com" className='hover:text-orange-500 text-white' target="_blank" rel='noopener noreferrer'><FaLinkedinIn /></Link>
                     </div>
                 </div>
                 <div className='flex items-center justify-between p-4 px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64'>
-                    <a href='/'><img src={logo} alt='logo' /></a>
-                    <div className='hidden md:flex gap-6'>
+                    <a href='/'><img src={logo} alt='logo' className='w-48 h-10' /></a>
+                    <div className='hidden md:flex gap-6 text-white'>
                         <NavLink
                             to="/"
                             className={({ isActive }) =>
