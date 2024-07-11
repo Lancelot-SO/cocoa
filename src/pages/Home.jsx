@@ -12,14 +12,53 @@ import manLogic from "../assets/manLogistic.jpg"
 import quote from "../assets/quote.jpg"
 import corporate from "../assets/mainGuy.JPG"
 
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
+import { slider } from '../data'
+
+
 import Quote from '../components/Quote'
 import { FaFacebook, FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import Slider from '../components/Slider';
 
 const Home = () => {
+    const responsive = {
+        desktop: {
+            breakpoint: { max: 3000, min: 1024 },
+            items: 1,
+            slidesToSlide: 1 // optional, default to 1.
+        },
+        tablet: {
+            breakpoint: { max: 1024, min: 464 },
+            items: 1,
+            slidesToSlide: 1 // optional, default to 1.
+        },
+        mobile: {
+            breakpoint: { max: 464, min: 0 },
+            items: 1,
+            slidesToSlide: 1 // optional, default to 1.
+        }
+    }
     return (
         <div className="relative">
-            <img src={homeBg} alt='bg' className="w-full h-full object-cover" />
+            <div className=''>
+                <div className=''>
+                    <Carousel
+                        swipeable
+                        draggable
+                        responsive={responsive}
+                        ssr // means to render carousel on server-side.
+
+                    >
+                        {slider.map((item) => (
+                            <div key={item.id} className='w-full h-full object-cover'>
+                                <Slider item={item} />
+                            </div>
+                        ))}
+                    </Carousel>
+                </div>
+            </div>
             <div className="absolute top-0 lg:top-[10%] left-0 w-full flex flex-col p-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64">
                 <h1 className="text-white lg:text-[50px] lg:leading-[55px] mb-4 font-bold md:text-[25px] md:leading-[30px]">Safe & Reliable <b className='text-[#1b4137]'>Logistics</b><br /> solutions!</h1>
                 <div className="flex flex-col md:flex-row items-center lg:w-[450px] w-[250px] border border-gray-300 rounded overflow-hidden bg-white shadow-lg">
