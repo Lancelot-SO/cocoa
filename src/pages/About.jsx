@@ -4,7 +4,7 @@ import aboutbg from "../assets/homebg.jpg"
 import { Link } from 'react-router-dom'
 import manLogic from "../assets/manLogistic.jpg"
 import quote from "../assets/quote.jpg"
-import corporate from "../assets/mainGuy.jpg"
+import corporate from "../assets/mainGuy.JPG"
 
 import { FaFacebook, FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 
@@ -59,7 +59,7 @@ const About = () => {
                 <h1 className="text-4xl font-bold mb-2">Our Entrusted Distributor</h1>
 
                 <div className="flex justify-center mt-8">
-                    <div className="relative bg-white rounded-lg shadow-lg mx-4 w-full sm:w-[350px] h-[350px] group overflow-hidden">
+                    <div className="relative bg-white rounded-lg shadow-lg mx-4 w-full sm:w-[350px] h-[450px] group overflow-hidden">
                         <img className="w-full h-full object-cover" src={corporate} alt="Mancherwan Kolin" />
                         <div className="absolute bottom-0 w-full h-[80px] bg-white bg-opacity-50 p-4 transition-all duration-300 ease-in-out group-hover:h-[35%] group-hover:bg-orange-500 group-hover:bg-opacity-100">
                             <h2 className="text-xl font-semibold">Mancherwan Kolin</h2>
@@ -72,9 +72,9 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-                    <p className='text-left w-[400px] h-[350px]'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
+                    <p className='text-left w-[500px] h-[350px]'>
+                        Born March, 10 1962 in Hamburg, Germany. Nolan M Olsen
+                        Studied Business in the prestigious University Of Copenhagen in Denmark. He became an independent contractor in supply Chain management and was very active in Rice Shipments from Vietnam,China  to Australia and parts of Europe . He was successful in this field for 25 years  building a name for himself. Overtime he transitioned into Wheat, Coffee and other commodities before bidding for contracts to supply Cocoa. After forging a strong network for himself he became a very  bla bla businessman and his imports has helped processing companies to rely on pure cocoa for their products ranging from skincare to beverages and bla bla bla. We are proud to have announced him as our current. He has also embarked on charities in Vietnam and Brazil giving back to the needy and underprivileged/less fortunate in society.</p>
                 </div>
             </section>
         </div>
