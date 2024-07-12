@@ -6,8 +6,8 @@ const Footer = () => {
     return (
         <footer className="bg-[#1b4137] text-white py-6 px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64">
             <div className="flex flex-col md:flex-row items-center justify-between border-b border-gray-700 pb-8 mb-8">
-                <h2 className="text-xl md:text-2xl lg:text-4xl lg:w-[600px] font-bold mb-4">We Understand The Importance Approaching Each Work!</h2>
-                <a href="tel:+12126839756" className="text-orange-500 text-xl md:text-2xl lg:text-3xl">+1 212-683-9756</a>
+                <h2 className="text-xl md:text-2xl lg:text-4xl lg:w-[600px] font-bold mb-4">We pride ourselves on only premium cocoa worldwide</h2>
+                <a href="tel:+12126839756" className="text-orange-500 text-xl md:text-2xl lg:text-3xl">+ (1) 512 428 846 0</a>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <div>
@@ -28,7 +28,7 @@ const Footer = () => {
                         <li className="mb-2">Sunday 11am-6pm</li>
                     </ul>
                 </div>
-                <div>
+                <div className='opacity-0'>
                     <h3 className="text-lg mb-4">RESOURCES</h3>
                     <ul>
                         <li className="mb-2"><a href="/home-insurance" className="hover:text-orange-500">Home Insurance</a></li>
@@ -40,8 +40,8 @@ const Footer = () => {
                 </div>
                 <div>
                     <a href='/'><img src={logo} alt='logo' className='w-48 h-10' /></a>
-                    <p className="mb-4">The trade war currently ensuing between the US and several nations around the globe, most fiercely with.</p>
-                    <div className="flex space-x-4">
+                    <p className="mb-4">The trade war currently ensuing between the US and several nations around the globe adversely affect the global distribution network.</p>
+                    <div className="flex space-x-4 opacity-0">
                         <a href="https://facebook.com" className="text-white hover:text-orange-500"><FaFacebook /></a>
                         <a href="https://twitter.com" className="text-white hover:text-orange-500"><FaTwitter /></a>
                         <a href="https://website.com" className="text-white hover:text-orange-500"><FaInstagram /></a>
@@ -50,7 +50,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="border-t border-gray-700 pt-4 mt-8 text-sm">
-                <p>&copy; 2024 All rights reserved | Developed by <b className='font-semibold text-orange-500'>LanceTech</b></p>
+                <p>&copy; 2024 All rights reserved</p>
             </div>
         </footer>
     );

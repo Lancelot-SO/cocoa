@@ -6,7 +6,6 @@ const Quote = () => {
             <div className="max-w-2xl w-full bg-white p-8 rounded-lg shadow-lg">
                 <p className="text-orange-500 font-medium text-sm mb-2">Get A Quote For Free</p>
                 <h2 className="text-3xl font-bold mb-4">Request A Free Quote</h2>
-                <p className="text-gray-600 mb-6">Brook presents your services with flexible, convenient and composed layouts. You can select your favorite layouts & elements for.</p>
                 <form>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
                         <input type="text" placeholder="Name" className="border border-gray-300 rounded-md p-2 w-full" />

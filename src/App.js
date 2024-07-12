@@ -8,6 +8,7 @@ import About from './pages/About';
 import Navbar from './components/Navbar';
 import Loader from './components/Loader';
 import Footer from './components/Footer';
+import Blog from './pages/Blog';
 
 const App = () => {
   const [loading, setLoading] = useState(false);
@@ -34,6 +35,8 @@ const App = () => {
             <Route path='/about' element={<About />} />
             <Route path='/services' element={<Services />} />
             <Route path='/contact' element={<Contact />} />
+            <Route path='/blog' element={<Blog />} />
+
           </Routes>
           <Footer />
         </>

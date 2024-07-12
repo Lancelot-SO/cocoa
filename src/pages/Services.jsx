@@ -3,7 +3,7 @@ import React from 'react';
 import Breadcrumb from '../components/Breadcrumb';
 import servicebg from "../assets/homebg.jpg"
 import truck from "../assets/delivery-truck.png"
-import ship from "../assets/ship.png"
+import ship from "../assets/checklist.png"
 import airplane from "../assets/airplane.png"
 
 
@@ -32,9 +32,9 @@ const Services = () => {
                                 <div className="text-orange-500 mb-4">
                                     <img src={truck} alt='truck' className='mx-auto' />
                                 </div>
-                                <h3 className="text-xl font-bold mb-2">Land Transport</h3>
+                                <h3 className="text-xl font-bold mb-2">Storage And WareHousing</h3>
                                 <p class="">
-                                    The sea freight service has grown considerably in recent years. We spend time getting to know your processes too.
+                                    Our cocoa produce is stored in silos and warehouses for future onwards distribution.
                                 </p>
                             </div>
                         </div>
@@ -44,9 +44,9 @@ const Services = () => {
                                 <div className="text-orange-500 mb-4">
                                     <img src={ship} alt='ship' className='mx-auto' />
                                 </div>
-                                <h3 className="text-xl font-bold mb-2">Sea Transport</h3>
+                                <h3 className="text-xl font-bold mb-2">Testing Of Raw Cocoa</h3>
                                 <p class="">
-                                    The sea freight service has grown considerably in recent years. We spend time getting to know your processes too.
+                                    Quality, Control and Asurance purposes to ensure optimal grade cocoa beans.
                                 </p>
                             </div>
                         </div>
@@ -56,9 +56,9 @@ const Services = () => {
                                 <div className="text-orange-500 mb-4">
                                     <img src={airplane} alt='airplane' className='mx-auto' />
                                 </div>
-                                <h3 className="text-xl font-bold mb-2">Air Transport</h3>
+                                <h3 className="text-xl font-bold mb-2">Import & Export</h3>
                                 <p class="">
-                                    The air freight service has grown considerably in recent years. We spend time getting to know your processes too.
+                                    Our Freight services have grown considerably in recent years. Our partnership with our distributors ensure worldwide delivery.
                                 </p>
                             </div>
                         </div>
