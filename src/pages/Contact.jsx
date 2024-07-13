@@ -57,21 +57,21 @@ const Contact = () => {
                                     <div class="flex items-center space-x-4 justify-center">
                                         <img src={location} alt='location' />
                                         <div>
-                                            <p class="font-medium text-gray-700">Buttonwood, California.</p>
-                                            <p>Rosemead, CA 91770</p>
+                                            <p class="font-medium text-gray-700">Mannheim - Germany.</p>
+                                            <p>Am Salzkai 5, 68158</p>
                                         </div>
                                     </div>
                                     <div class="flex items-center space-x-4 justify-center">
                                         <img src={phone} alt='location' />
                                         <div>
-                                            <p class="font-medium text-gray-700">+1 253 565 2365</p>
-                                            <p>Mon to Fri 9am to 6pm</p>
+                                            <p class="font-medium text-gray-700">+ (1) 512 428 846 0</p>
+                                            <p>Mon - Sat 8.00 - 18.00</p>
                                         </div>
                                     </div>
                                     <div class="flex items-center space-x-4 justify-center">
                                         <img src={email} alt='location' />
                                         <div>
-                                            <p class="font-medium text-gray-700">support@colorlib.com</p>
+                                            <p class="font-medium text-gray-700">info@wohlstandgrand.com</p>
                                             <p>Send us your query anytime!</p>
                                         </div>
                                     </div>
