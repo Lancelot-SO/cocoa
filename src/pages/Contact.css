@@ -69,3 +69,9 @@
     top: 380px;
     left: 18%
 }
+
+@media (max-width: 767px) {
+    .pin {
+        display: none;
+    }
+}
