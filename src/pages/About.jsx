@@ -69,11 +69,11 @@ const About = () => {
                         </div>
                     </div>
                     <p className='text-left lg:w-[500px] h-[450px] p-4'>
-                        Born March, 10 1962 in Hamburg, Germany. Nolan M Olsen
+                        Born March, 10 1962 in Hamburg, Germany. Michael N. Olsen
                         Studied Business in the prestigious University Of Copenhagen in Denmark. He became an independent contractor in supply Chain management and was very active
                         in Rice Shipments from Vietnam,China  to Australia and parts of Europe . He was successful in this field for 25 years  building a name for himself.
                         Overtime he transitioned into Wheat, Coffee and other commodities before bidding for contracts to supply Cocoa.
-                        After forging a strong network for himself he became a very successful businessman and his imports has helped processing companies to rely on pure cocoa for their products ranging from skincare to beverages and more. He has also embarked on charities in Vietnam and Brazil giving back to the needy and underprivileged/less fortunate in society. We are proud to have announced him as our current.</p>
+                        After forging a strong network for himself he became a very successful businessman and his imports has helped processing companies to rely on pure cocoa for their products ranging from skincare to beverages and more. He has also embarked on charities in Vietnam and Brazil giving back to the needy and underprivileged/less fortunate in society. We are proud to have announced him as our current distributor.</p>
                 </div>
             </section>
         </div>

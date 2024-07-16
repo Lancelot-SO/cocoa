@@ -10,7 +10,7 @@ const Navbar = () => {
     const [showDropdown, setShowDropdown] = useState(false);
     const [showMobileDropdown, setShowMobileDropdown] = useState(false);
 
-    const countries = ["Brazil", "Ivory Coast", "Indonesia", "Ecuador", "Peru", "Columbia", "Dominican Republic", "Mexico"];
+    const countries = ["Brazil", "Ivory Coast", "Indonesia", "Ecuador", "Peru", "Colombia", "Dominican Republic", "Mexico"];
 
     const toggleNav = () => {
         setNav(!nav);

@@ -1,7 +1,7 @@
 // src/pages/About.jsx
 import React from 'react';
 import Breadcrumb from '../components/Breadcrumb';
-import servicebg from "../assets/homebg.jpg"
+import servicebg from "../assets/c3.jpg"
 import truck from "../assets/delivery-truck.png"
 import ship from "../assets/checklist.png"
 import airplane from "../assets/airplane.png"
@@ -13,9 +13,9 @@ const Services = () => {
     return (
         <div className="">
             <div className="relative ">
-                <img src={servicebg} alt='service' />
-                <div className='absolute top-[40%] px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64'>
-                    <h2 className='text-[24px] md:text-[24px] lg:text-[80px] font-bold tracking-wider text-orange-500'>Services</h2>
+                <img src={servicebg} alt='service' className='w-full h-[800px] object-cover' />
+                <div className='absolute top-[40%] lg:top-[60%] px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64'>
+                    <h2 className='text-[24px] md:text-[24px] lg:text-[80px] font-bold tracking-wider text-white'>Services</h2>
                     <Breadcrumb />
                 </div>
             </div>
