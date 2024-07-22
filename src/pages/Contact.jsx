@@ -57,11 +57,12 @@ const Contact = ({ selectedCountry }) => {
                         </div>
                         <div className='w-full'>
                             <h2 className='text-2xl lg:text-[40px] font-semibold my-2 tracking-wider text-[#666]'>Enquiry Form</h2>
-                            <form>
-                                <input type='text' placeholder='Full Name' className='my-4 w-full py-2 px-4 bg-[#F2F2F2] outline-none' />
-                                <input type='text' placeholder='Email Address' className='my-4 w-full py-2 px-4 bg-[#F2F2F2] outline-none' />
-                                <textarea rows="4" placeholder='Message' className='w-full p-4 bg-[#F2F2F2] outline-none my-4'></textarea>
-                                <button className='text-white text-center py-4 w-full bg-[#1b4137]'>Send Message</button>
+                            <form action="https://formspree.io/f/mdknaeav"
+                                method="POST">
+                                <input type='text' name='name' placeholder='Full Name' className='my-4 w-full py-2 px-4 bg-[#F2F2F2] outline-none' />
+                                <input type='text' name='email' placeholder='Email Address' className='my-4 w-full py-2 px-4 bg-[#F2F2F2] outline-none' />
+                                <textarea rows="4" name='message' placeholder='Message' className='w-full p-4 bg-[#F2F2F2] outline-none my-4'></textarea>
+                                <button type='submit' className='text-white text-center py-4 w-full bg-[#1b4137]'>Send Message</button>
                             </form>
                         </div>
                     </div>
