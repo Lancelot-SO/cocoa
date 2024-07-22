@@ -1,7 +1,7 @@
 // src/pages/About.jsx
 import React from 'react';
 import Breadcrumb from '../components/Breadcrumb';
-import servicebg from "../assets/c3.jpg"
+import servicebg from "../assets/prodImage.jpg"
 import truck from "../assets/delivery-truck.png"
 import ship from "../assets/checklist.png"
 import airplane from "../assets/airplane.png"

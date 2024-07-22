@@ -41,7 +41,7 @@ const About = () => {
                         </div>
                     </div>
                     <div className='flex-1 w-full md:w-auto'>
-                        <img src={manLogic} alt='service' className='h-auto md:h-[450px] w-full md:w-[400px]' />
+                        <img src={manLogic} alt='service' className='h-auto md:h-[420px] w-full md:w-[400px]' />
                     </div>
                 </div>
             </section>
@@ -68,7 +68,7 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-                    <p className='text-left lg:w-[500px] h-[450px] p-4'>
+                    <p className='text-left lg:w-[500px] h-[550px] p-4'>
                         Born March, 10 1962 in Hamburg, Germany. Michael N. Olsen
                         Studied Business in the prestigious University Of Copenhagen in Denmark. He became an independent contractor in supply Chain management and was very active
                         in Rice Shipments from Vietnam,China  to Australia and parts of Europe . He was successful in this field for 25 years  building a name for himself.

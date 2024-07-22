@@ -1,14 +1,15 @@
 import React, { useState } from 'react';
 import { FaFacebook, FaInstagram, FaTimes, FaTwitter } from 'react-icons/fa';
 import { FaLinkedinIn } from 'react-icons/fa6';
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink, useNavigate } from 'react-router-dom';
 import logo from "../assets/corologo.png";
 import { RiMenu4Fill } from 'react-icons/ri';
 
-const Navbar = () => {
+const Navbar = ({ setSelectedCountry }) => {
     const [nav, setNav] = useState(false);
     const [showDropdown, setShowDropdown] = useState(false);
     const [showMobileDropdown, setShowMobileDropdown] = useState(false);
+    const navigate = useNavigate();
 
     const countries = ["Brazil", "Ivory Coast", "Indonesia", "Ecuador", "Peru", "Colombia", "Dominican Republic", "Mexico"];
 
@@ -23,6 +24,13 @@ const Navbar = () => {
 
     const toggleMobileDropdown = () => {
         setShowMobileDropdown(!showMobileDropdown);
+    };
+
+    const handleCountryClick = (country) => {
+        setSelectedCountry(country);
+        setShowDropdown(false);
+        setShowMobileDropdown(false);
+        navigate('/contact');
     };
 
     return (
@@ -87,7 +95,7 @@ const Navbar = () => {
                                         <div
                                             key={index}
                                             className='block px-4 py-2 hover:bg-orange-100 cursor-pointer'
-                                            onClick={() => setShowDropdown(false)}
+                                            onClick={() => handleCountryClick(country)}
                                         >
                                             {country}
                                         </div>
@@ -151,7 +159,7 @@ const Navbar = () => {
                                         <Link
                                             key={index}
                                             className='block px-4 py-2 hover:bg-gray-200'
-                                            onClick={toggleNav}
+                                            onClick={() => handleCountryClick(country)}
                                         >
                                             {country}
                                         </Link>

@@ -11,6 +11,8 @@ import Footer from './components/Footer';
 import Blog from './pages/Blog';
 
 const App = () => {
+  const [selectedCountry, setSelectedCountry] = useState('');
+
   const [loading, setLoading] = useState(false);
   const location = useLocation();
 
@@ -29,12 +31,12 @@ const App = () => {
         <Loader />
       ) : (
         <>
-          <Navbar />
+          <Navbar setSelectedCountry={setSelectedCountry} />
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/about' element={<About />} />
             <Route path='/services' element={<Services />} />
-            <Route path='/contact' element={<Contact />} />
+            <Route path='/contact' element={<Contact selectedCountry={selectedCountry} />} />
             <Route path='/blog' element={<Blog />} />
 
           </Routes>

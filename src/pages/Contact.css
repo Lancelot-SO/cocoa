@@ -30,44 +30,53 @@
     padding: 0.3em 0.6em;
 }
 
+.pin.selected {
+    background-color: orange;
+}
+
+.pin.selected span {
+    background-color: orange;
+    color: white;
+}
+
 .brazil {
     top: 500px;
-    left: 35%
+    left: 35%;
 }
 
 .ivory {
     top: 440px;
-    left: 45%
+    left: 45%;
 }
 
 .indonesia {
     top: 440px;
-    left: 80%
+    left: 80%;
 }
 
 .ecuador {
     top: 460px;
-    left: 25%
+    left: 25%;
 }
 
 .peru {
     top: 500px;
-    left: 25%
+    left: 25%;
 }
 
 .colombia {
     top: 430px;
-    left: 28%
+    left: 28%;
 }
 
 .dominican {
     top: 400px;
-    left: 26%
+    left: 26%;
 }
 
 .mexico {
     top: 380px;
-    left: 18%
+    left: 18%;
 }
 
 @media (max-width: 767px) {

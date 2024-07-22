@@ -1,7 +1,7 @@
 
 import Cocoa1 from "./assets/c5.jpg"
 import Cocoa2 from "./assets/c4.jpg"
-import Cocoa3 from "./assets/c3.jpg"
+import Cocoa3 from "./assets/prodImage.jpg"
 import Cocoa4 from "./assets/cocoa4.jpg"
 
 
