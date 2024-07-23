@@ -43,7 +43,7 @@ const Contact = ({ selectedCountry }) => {
                             <ul className='my-8'>
                                 <li className='flex items-center my-3 gap-3'>
                                     <img src={location} alt='location' />
-                                    <p className='text-[#666]'>4, 4th Street West Cantonments, Accra-Ghana</p>
+                                    <p className='text-[#666]'>Am Salzkai 5, 68158, Mannheim - Germany</p>
                                 </li>
                                 <li className='flex items-center my-3 gap-3'>
                                     <img src={email} alt='email' />
