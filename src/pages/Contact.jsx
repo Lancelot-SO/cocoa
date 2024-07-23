@@ -37,7 +37,7 @@ const Contact = ({ selectedCountry }) => {
                             <h2 className='text-2xl lg:text-[40px] font-semibold my-2 tracking-wider text-[#666]'>Contact Info</h2>
                             <p className='text-[#666]'>
                                 With an impressive track record of growth and impact, Wohlstand has become a
-                                trusted partner for businesses across Africa and beyond. We look forward to continuing
+                                trusted partner for businesses across North America and beyond. We look forward to continuing
                                 our journey of excellence and making a difference in the lives of those we serve.
                             </p>
                             <ul className='my-8'>
