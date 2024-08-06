@@ -9,7 +9,9 @@ import ship from "../assets/checklist.png"
 import airplane from "../assets/airplane.png"
 import manLogic from "../assets/c4.jpg"
 import quote from "../assets/quote.jpg"
-import corporate from "../assets/mainGuy.JPG"
+// import corporate from "../assets/mainGuy.JPG"
+import corporate2 from "../assets/mainGuy2.jpeg"
+
 
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
@@ -202,9 +204,9 @@ const Home = () => {
 
                 <div className="flex flex-col lg:flex-row lg:justify-center mt-8">
                     <div className="relative bg-white rounded-lg shadow-lg w-full sm:w-[350px] h-[450px] group overflow-hidden">
-                        <img className="w-full h-full object-cover" src={corporate} alt="Mancherwan Kolin" />
+                        <img className="w-full h-full object-cover" src={corporate2} alt="Mancherwan Kolin" />
                         <div className="absolute bottom-0 w-full h-[80px] bg-white bg-opacity-50 p-4 transition-all duration-300 ease-in-out group-hover:h-[35%] group-hover:bg-orange-500 group-hover:bg-opacity-100">
-                            <h2 className="text-xl font-semibold">Michael N. Olsen</h2>
+                            <h2 className="text-xl font-semibold">Michael Olsen Gluck</h2>
                             <p className="text-gray-600">Distributor</p>
                             <div className="absolute bottom-0 left-0 right-0 h-[80%] w-full flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out">
                                 <Link className="transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-[0.4s]"><FaLinkedinIn /></Link>
@@ -212,8 +214,8 @@ const Home = () => {
                         </div>
                     </div>
                     <p className='text-left lg:w-[500px] h-[550px] p-4'>
-                        Born March, 10 1962 in Hamburg, Germany. Michael N. Olsen
-                        Studied Business in the prestigious University Of Copenhagen in Denmark. He became an independent contractor in supply Chain management and was very active
+                        Born August, 10 1962 in Dusseldorf, Germany. Michael Olsen Gluck
+                        Studied Business in the prestigious University Of Ludwig-Maximilians-Universität München. He became an independent contractor in supply Chain management and was very active
                         in Rice Shipments from Vietnam,China  to Australia and parts of Europe . He was successful in this field for 25 years  building a name for himself.
                         Overtime he transitioned into Wheat, Coffee and other commodities before bidding for contracts to supply Cocoa.
                         After forging a strong network for himself he became a very successful businessman and his imports has helped processing companies to rely on pure cocoa for their products ranging from skincare to beverages and more. He has also embarked on charities in Vietnam and Brazil giving back to the needy and underprivileged/less fortunate in society. We are proud to have announced him as our current distributor.</p>
